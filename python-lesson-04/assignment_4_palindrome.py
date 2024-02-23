@@ -13,12 +13,9 @@ print(f"Is {word} a palindrome? {palindrome_check}.\n")
 ## If the users input was not a palindrome it will show them what their input looks like when reversed.
 if palindrome_check == True:
     is_isnt = 'is'
+    not_palindrome = ''
 else:
     is_isnt = 'is not'
-
-if is_isnt == 'is not':
     not_palindrome = (f" {word} backwards is {reversed_word}")
-else:
-    not_palindrome = ''
-
+  
 print(f"Your suggestion '{word}', {is_isnt} a palindrome.{not_palindrome}\n")
