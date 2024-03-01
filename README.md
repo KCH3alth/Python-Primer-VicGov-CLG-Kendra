@@ -5,7 +5,7 @@
 - [x] Assignment 2 - ***Annoying*** *text*
 - [x] Assignment 3 - *Savings calculator*
 - [x] Assignment 4 - Palindrome
-- [ ] Assignment 5 -
+- [x] Assignment 5 - Palindrome phrase + 2nd version that removes punctuation from the input
 - [ ] Assignment 6 -
 - [ ] Assignment 7 -
 - [ ] Assignment 8 -
