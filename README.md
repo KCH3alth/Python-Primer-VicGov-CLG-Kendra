@@ -6,7 +6,7 @@
 - [x] Assignment 3 - *Savings calculator*
 - [x] Assignment 4 - Palindrome
 - [x] Assignment 5 - Palindrome phrase + 2nd version that removes punctuation from the input
-- [ ] Assignment 6 -
+- [x] Assignment 6 - Dictionary of Me
 - [ ] Assignment 7 -
 - [ ] Assignment 8 -
 - [ ] Assignment 9 -
