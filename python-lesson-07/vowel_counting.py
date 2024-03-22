@@ -13,4 +13,4 @@ def vowel_counting():
         print(f'There is {count} vowel in your name.\n')
     else:
         print(f'There are {count} vowels in your name.\n')
-vowel_counting()
+    return
