@@ -8,6 +8,6 @@
 - [x] Assignment 5 - Palindrome phrase + 2nd version that removes punctuation from the input
 - [x] Assignment 6 - Dictionary of Me
 - [x] Assignment 7 - Vowel counting
-- [ ] Assignment 8 -
+- [x] Assignment 8 - Smart device
 - [ ] Assignment 9 -
 - [ ] Assignment 10 -
