@@ -9,5 +9,5 @@
 - [x] Assignment 6 - Dictionary of Me
 - [x] Assignment 7 - Vowel counting
 - [x] Assignment 8 - Smart device
-- [ ] Assignment 9 -
+- [x] Assignment 9 - My smart coffee machine
 - [ ] Assignment 10 -
