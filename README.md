@@ -10,4 +10,4 @@
 - [x] Assignment 7 - Vowel counting
 - [x] Assignment 8 - Smart device
 - [x] Assignment 9 - My smart coffee machine
-- [ ] Assignment 10 -
+- [x] Assignment 10 - Tkinter palindrome app (all functions built into the one file, i couldnt get a module import to work)

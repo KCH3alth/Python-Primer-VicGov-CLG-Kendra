@@ -10,8 +10,16 @@ class Root(tk.Tk):
         self.entry_0.pack()
         self.label_2 = tk.Label(self, fg='#3C3633', bg='#EADBC8')
         self.label_2.pack()
-        self.btn = tk.Button(self, text='Submit', command=self.palindrome_checker)
-        self.btn.pack()
+        self.btn_1 = tk.Button(self, text='Submit', command=self.palindrome_checker)
+        self.btn_1.pack()
+        
+        self.label_3 = tk.Label(self, text="Would you like to know how many vowels are in your suggested palindrome?", 
+            fg='#000000', bg='#B3C8CF')
+        self.label_3.pack()
+        self.btn_2 = tk.Button(self, text='Yes please!', command=self.vowel_counting)
+        self.btn_2.pack()
+        self.label_4 = tk.Label(self, fg='#3C3633', bg='#EADBC8')
+        self.label_4.pack()
  
     def palindrome_checker(self):
         phrase = self.entry_0.get().lower()
@@ -33,6 +41,20 @@ class Root(tk.Tk):
         else:
             self.label_2['text'] = f"No, your suggestion '{user_input}' is not a palindrome.\n\n '{user_input}' backwards is '{reversed_phrase}'"
             self.label_2['bg'] = '#FA7070'
+            self.btn_1['text'] = 'Try again'
+        return
+    
+    def vowel_counting(self):
+        user_input = self.entry_0.get()
+        vowels = "aeiouAEIOU"
+        count = 0
+        for letter in user_input:
+            if letter in vowels:
+                count = count +1
+        if count == 1:
+            self.label_4['text'] = f'\nThere is {count} vowel in your suggestion.\n'
+        else:
+            self.label_4['text'] = f'\nThere are {count} vowels in your suggestion.\n'
         return
     
 if __name__ == '__main__':
